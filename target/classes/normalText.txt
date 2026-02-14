@@ -1,0 +1,6 @@
+        <!-- 🔥 ENTITY MAPPINGS (add all later) -->
+        <mapping class="com.reviewinsight.core.entity.Project"/>
+        <mapping class="com.reviewinsight.core.entity.Developer"/>
+        <mapping class="com.reviewinsight.core.entity.PullRequest"/>
+        <mapping class="com.reviewinsight.core.entity.ReviewComment"/>
+        <mapping class="com.reviewinsight.core.entity.Reviewer"/>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
+    <session-factory>
+
+        <!-- 🔥 DATABASE CONNECTION -->
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/reviewinsight_db</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">Fkp37Si@n</property> <!-- change if needed -->
+
+        <!-- 🔥 DIALECT -->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+
+        <!-- 🔥 AUTO TABLE CREATION -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- 🔥 SQL SHOW -->
+        <property name="hibernate.show_sql">true</property>
+        <!-- <property name="hibernate.format_sql">true</property> -->
+
+        <!-- 🔥 L2 CACHE ENABLE -->
+        <property name="hibernate.cache.use_second_level_cache">true</property>
+        <property name="hibernate.cache.region.factory_class">
+            org.hibernate.cache.jcache.internal.JCacheRegionFactory
+        </property>
+        <property name="hibernate.javax.cache.provider">
+            org.ehcache.jsr107.EhcacheCachingProvider
+        </property>
+
+
+    </session-factory>
+</hibernate-configuration>
