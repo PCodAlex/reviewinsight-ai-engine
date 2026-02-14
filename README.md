@@ -56,9 +56,9 @@ Built for developers and teams to:
 ---
 
 ## 📸 Sample CLI Output
-![CLI Output](screenshots/cli-output1.png)
-![CLI Output](screenshots/cli-output2.png)
-![CLI Output](screenshots/cli-output3.png)
+![CLI Output](snapshots/cli-output1.png)
+![CLI Output](snapshots/cli-output2.png)
+![CLI Output](snapshots/cli-output3.png)
 
 ---
 
